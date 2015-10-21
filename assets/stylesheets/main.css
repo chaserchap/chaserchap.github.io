@@ -4,6 +4,7 @@
 	color: #ffecd5;
 	text-align: center;
 	background-color: #362e2b;
+	font-size: 16px;
 }
 
 /*
@@ -12,7 +13,7 @@
 		==========
 */
 
-.bio {
+p {
 	text-align: left;
 }
 
@@ -35,12 +36,7 @@
 	text-decoration: none;
 }
 
-.nav a:hover {
-	background-color: #ffecd5;
-	color: #362e2b;
-}
-
-.btn {
+.btn, .btn-alt {
 	border-color: #ffecd5;
 	border-radius: 5px;
 	border-style: solid;
@@ -53,6 +49,11 @@
 	width: 100%;
 }
 
+.btn:hover, .btn-alt:hover {
+	background-color: #ffecd5;
+	color: #362e2b;
+}
+
 .btn a:first-child {
 	margin-bottom: 2px;
 }
@@ -61,19 +62,23 @@
 	margin-top: 2px;
 }
 
-.btn-alt img {
-	width: 140px;
-	background-color: #362e2b;
+.btn-alt {
+	padding: 5px;
+	width: 130px;
 }
 
-.kaggle img {
-	padding: 3px 0 0 5px;
+.btn-alt img:first-child {
+	margin-bottom: 2px;
 }
+
+.btn-alt img:last-child {
+	margin-top: 2px;
+}
+
 .nav p {
-	margin: 0;
+	margin-bottom: 5px;
 	padding-left: 5px;
 	padding-top: 5px;
-	text-align: left;
 }
 /*
 		==========
@@ -83,4 +88,35 @@
 
 .image img {
 	max-width: 960px;
+}
+
+/*
+		==========
+		Resume
+		==========
+*/
+
+.resume h3, h4, h5, li {
+	text-align: left;
+}
+
+.resume h3 {
+	font-size: 20px;
+}
+
+.resume h4 {
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.resume h5 {
+	font-weight: 500;
+}
+
+.resume p {
+	font-weight: 500;
+}
+
+.resume a {
+	width: 140px;
 }
