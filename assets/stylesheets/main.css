@@ -32,7 +32,7 @@ p {
 		==========
 */
 
-.nav a {
+a {
 	text-decoration: none;
 }
 
@@ -73,6 +73,11 @@ p {
 
 .btn-alt img:last-child {
 	margin-top: 2px;
+}
+
+.active .btn {
+	background: #ffecd5;
+	color: #362e2b;
 }
 
 .nav p {
