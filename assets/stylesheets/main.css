@@ -75,12 +75,13 @@ a {
 	margin-top: 2px;
 }
 
-.active .btn {
+#active {
 	background: #ffecd5;
 	color: #362e2b;
+	cursor: default;
 }
 
-.nav p {
+.connect {
 	margin-bottom: 5px;
 	padding-left: 5px;
 	padding-top: 5px;
