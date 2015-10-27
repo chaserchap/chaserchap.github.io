@@ -2,9 +2,12 @@
 * {
 	font-family: Georgia, Arial, Verdana, sans-serif;
 	color: #ffecd5;
-	text-align: center;
 	background-color: #362e2b;
 	font-size: 16px;
+}
+
+.header {
+	text-align: center;
 }
 
 /*
@@ -115,14 +118,28 @@ a {
 	font-weight: 600;
 }
 
-.resume h5 {
-	font-weight: 500;
-}
-
-.resume p {
+.resume h5, p {
 	font-weight: 500;
 }
 
 .resume a {
 	width: 140px;
 }
+
+.resume {
+	text-align: center;
+}
+
+/*
+		==========
+		Contact Form
+		==========
+*/
+
+.contactForm input {
+	float: right;
+}
+
+
+
+
